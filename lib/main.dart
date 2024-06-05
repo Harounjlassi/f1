@@ -11,8 +11,9 @@ void main() {
         backgroundColor: Colors.blueGrey,
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg'),
+            image: AssetImage('Images/diamond.png'),
+            //image: NetworkImage(
+            //'https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg'),
           ),
         ),
       ),
